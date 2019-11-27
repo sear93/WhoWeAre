@@ -1,0 +1,120 @@
+.team {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.team__heading {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 34px;
+  word-spacing: 6px;
+  letter-spacing: 4px;
+  margin-top: 100px;
+  color: #3c3c3c;
+}
+
+.team__text {
+  max-width: 560px;
+  margin: 0 auto 60px auto;
+  font-weight: 300;
+  font-size: 16px;
+  color: #3c3c3c;
+}
+
+.team hr {
+  border: none;
+  background-color: #dddbdb;
+  height: 4px;
+  width: 45px;
+  margin: 10px auto 30px auto;
+}
+
+.faces {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.faces .face {
+  text-align: left;
+  margin: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.faces .face__img {
+  position: relative;
+}
+
+.faces .face__name {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.faces .face__position {
+  font-size: 14px;
+  font-weight: 300;
+  color: #646464;
+}
+
+.faces .face .overlay {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0;
+  background-color: #18b5dc;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.faces .face .overlay:hover {
+  opacity: 1;
+}
+
+.faces .face .overlay a {
+  width: 42px;
+  height: 42px;
+  background-color: #5ecbe7;
+  line-height: 42px;
+  text-align: center;
+  color: #fff;
+  margin: 3px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.faces .face .overlay a:hover {
+  -webkit-transform: translateY(-6px);
+  -ms-transform: translateY(-6px);
+  transform: translateY(-6px);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
